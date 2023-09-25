@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Tugas Bootstrap</title>
+  </head>
+  <body>
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-2 d-flex justify-content-center container-fluid">
+            <div class="card border-primary mb-3 mx-3" style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAALlJREFUSEvtk7ENwkAQBMdFQAydUAo0QQqkNIE7gU4ghiJAK/0nxj7vy3oJBBff7dzv3jdUrqayPr8FWAPHZOkWaB17Syy6A7Mk+gDmXweobpHjyFuPm8EZWHWmL8AGuEVkB3ACZE9fHYD9FICEBYgqhEQvWABX0/jlkFURIG+vDxVZtEufTnkUhyxhAZ4DL9GCCl+B95YTsgYjQOhiKSD3Z+Do/GhDWq8r+AeY12+0uRkYUtPO9HMBL839IRkkEucZAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-primary">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-success mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAE5JREFUSEtjZKAxYKSx+QyjFqCH8H+oADxkqB1EQ88CdBdT3QdDzwJCLqY4iIaeBaS6mOQgGnoWUOpigkE0asHABxHVq2hqVzgYDqS5BQDwTDcZfkSUIwAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-success">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-danger mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAM5JREFUSEvtldEJwzAMRC+btJu0o3SUTtJR2k2STRIOLJCNYp9C8xf/GIx8T5g7a8LJazpZHxnADcCnNPQCsCjNqQATfxRRij8ViALw4tY1zyTICNCK3wHw7Fv2IaQHiMTt2WXIHqAnnoJEAEVchrSAjLgE8YDWiiMD+Bjw7hxZ2IvQGeZz1mYArF8d8VdyUomwA3Zi6+8AE7ZOjgKqe5HIBbieaHfMhOaIXNTmQRlcVsPvm196N0xMM0ejD50CYXrfALgfTqsCqmqyaU0DNl9vPxmfrU7NAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-danger">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-dark mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASBJREFUSEvdlesNwjAMhK+bwCYwCTAJMAkwCTAJbAL6pNhyTdrSov7BUkWFH5c722mjma2Zub7+H2AhaSvpVp6o6EoST83ncV0SHSTtQ7VnBwAHwPBfJJHXshpALj5mDnaSzjGhBvAaUzHFwmTZB3Aqmv+AoWOUKjN4SDJdp4K0WEQApgUG2UgYC7q2oYgANXloGI0DAHbRTGsOFieOGJdpCCD6r2XuKWDAvNfA2Q1YtK6Kmv5OVVIE8AKFUp4870M8YW08CUQiNjbLAAuWi//xR/saYOokuTpDDKYCVBl03T93SZuChBQkY/ziw/DHUfYrIy+a3Z6m98fqJ0rE03wrTvMpbofo/OD0XdNZNvaAeJruhS3o/79oU6fI82aX6A0R6z4ZekfONQAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-dark">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-info mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANRJREFUSEvFlNENwjAMRK+b0E1gE9iETgKbwCZ0E5ClBEXF9iVOI/pTKUnfsy9JJwx+psF89ArOqcAngFUrNio4ALgBOCaowE+aJCIo4blqGVMlrYItfE4dvADI3AXAvYyqRWDFIrwc1wLgGhF4sUg0shfyzh19HTUdsFgEpsJlggksuDX+c1I9QTfc62AXuCXYDW4JHsqpqM58uwnaHrzTojwXhlsdlIIuOBOU3ZrnnP3uvYjyt2F4zUVjBdJ5dpMpgC2oiYgx3JP5F0Frxe764XvwAYRSOhnUIUBbAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-info">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-secondary mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAASpJREFUSEvVldGRwjAMRJdOjkqASoBK4Co5qASoBKgE5jESowu2HC7h4/STSWzrSeu1M9GHY/Lh/MoAW0kzSXNJF0lHSVdJfO8dJQAJfyR9VbIAWxuwCeoCSH6wVVT8bYmAMba0J1MWfSBdwNkq31mVpQqRaGOyTVstRIAvpHKqy4Iu6YgO0z2JAHRfWeV0kIVL2SwmAlwe2mYjs2BPmM+8VKa/AoDfrIL0LMVB17WPO5ASSTMzPPgR4IuaupqV395kdKULnpk73AxN/bsd8B4PGgn8oDEGGP8zh2jKUwJ4Iu+k5CTA+3DYKKJq65oD/Grwyw4QiU/hYLkpGKtKOuS6jnJWIUMAJPXrxaV86WQooAkZA9CF8K94bvpYAIdghF+OGhNQvBz/P+AOBx9EGcOnrJwAAAAASUVORK5CYII="/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-secondary">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-primary mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPtJREFUSEvFVcERwjAMUzeBTWAUJoFuwiawCYzCqRffua6cS3L02m+VSHJke8LO37Tz/TiU4AXg0ujwDeAG4BvxmYMHgHvj5QYjwbOV4APgVMBUdVXqyn8TI3HKgT/AO0gk1Tm1JmiDUwQGnssFLNWwi0jg1Z8LQaou1FviIoFXTzJ+1Ro7EonzBEq9nR924Qks96y9qTeC3tiyL5i8VSfXVPYSMBTLG2YlirlXb6P6cIPLHtnnufY2nkTiajE1F8PqY4lUYtjF1mjWF6o0qcvWUaGS5YlSl9k0jcNuSH1WIt+9PRNbuqxttN6FszRW6z7oUV7FHrqT/+LiB1JUWRkiL+RRAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-primary">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-danger mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAMFJREFUSEvtlNENwjAMRK+b0E1gE9ikTAKbsAqbgJ7kRCFtlZg0SJWI1B9Lfpc7Ox3U+Qyd+fq5wMscbSacg/4Cs53ZXUQHSUdJ92BlSwfAbyZwlTQh4hUIEHovkp520xRObfzGQQqhH9DJQOHmH3CPg/yG9FIDyEfuM3itwJJ9ag8TCW5iLOmulmawmq3BEUmjcr+Ds23Gov2aP3HJAQxE4l7XQD0ReXnuiLoJtIJj9PkMeDBk3npWBVrBxRnsT+AN89gtGaRLIMwAAAAASUVORK5CYII="/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-danger">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-success mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ9JREFUSEu1lYERwiAMRX830UnUTXQSdRLdRJ1EN9F7PeAAEdJacse1R2le8glkUGcbOvuXBbCVtJK0keTf75Iekni+3CjG2gLcnNNaogAODva17heASC8ucquKV0nnPJsSADmeVq/ZOgCneK4EwDmQku2cFDXpEkgOgH6sRG8B8PvaSxUDLNJYASGLXgDKl2CSc9CSh/XWDILvOIMpgNI2vbPJcR9iAHW/b5Snz8ACGH3HAJwDWcI43WSQADi91PcSVtxkHNcO2RRwsUxxYNnoFijIk0vkf/w3i+pVAWTOTeqDC9r7iaWva/pCYq2GYzkbsxpOHAWSMWiZXIgMmgtG2/Tvxc1vZdCqmOb37oAPX+47GVwUzD4AAAAASUVORK5CYII="/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-success">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-primary mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAANRJREFUSEvVldERAiEMRN91op1oKVbiWYl2op1oJzrriBMQvAsMo8cPP8m+JMAy0HkNnfXJAVbAEdg44RdgB9xsXgqoFQ+aEt9aiAVYcQWuHR0o9wxojyAWoADvWEo1aFzqJDqDu6PiOaHP4m0HAdB6syKdvwKkIyx1Wt3BMgEjsJ+4Mnq9JxPjHtE3SCoujhugpBwkJ14NSCEl8SZAgMhr7MzTI6oa0RxrCDG/A1xfduupthT7tnv73GXV+snk6S1LVn0AtGe/zBbxj9xWa54spjvgAfylOBlGlzspAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-primary">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-dark mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQ1JREFUSEvVlNENwjAMRK+bwCYwCTAJMAlsApvAJqBDduVaTmwqVYL8RGoavzvH9oCF17BwfPwUYAXgCID7AcCz4v4bBy8TkMG3FUgVcBL1qpouzgD4vbsqAAZ7SBSq5rrJvs5cVABWPQNyEVhykQG8+rsANlUXGUDVM7CmR3N+AbDP3qIHsOo111pJvMdzvgX35lv0AKreVosF0EnqogWI1DOgB6QuWoCWMg8gVJ1epcMnfREBrHp/HgG6LiIAH45lWOpUkdusNg/Q+uZI0KayliMHeq7NN6koD8g6tAcIXViA5r6lPptrdoSMLizAtn8lWO8fdv1nrPgU0eZOunMuZFIc2SyaCxnv/T/gDcMNRRm/AoROAAAAAElFTkSuQmCC"/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-dark">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="card border-warning mb-3 mx-3 " style="max-width: 18rem; max-height: 10rem;">
+                <div class="row justify-content-between">
+                    <div class="col-4 row align-items-center">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAOdJREFUSEvdlLENwjAQRR89Q0DJFjAGJSUFVPTAAFR0NLAJbAJD0IO+ZKOLRWQfSZDgpCiSnfznO/+7Hh1Hr2N9/gswBo7AoGHZbsAMuEjHlugMCNJGCDJMAY+g3PReKjpW7KuAPnAApsAeWDrqVpxB/DAtZY5VBBgBc2AB7IBVoiq3ySnvoghgf1S57mYhuu1UA3EDZF09m/AWIMY2rNsDuQBquisgX0tMpbFRaaqw4QKUNN+rqbyAEvGYjb0PVwY5S7biIi+kNgNPSXJQTdJJ2qGy4rqFiVo7rnOn+mi/6WjOQn8f8ARFFDcZ4K8f3AAAAABJRU5ErkJggg=="/>
+                    </div>
+                    <div class="col-8">
+                        <div class="card-body text-warning">
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, pariatur!</p>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
